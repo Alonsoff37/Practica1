@@ -1,0 +1,48 @@
+body {
+    text-align:start;
+    margin-left: 50px;
+}
+
+span{
+    display: Inline-block;
+    margin: 50px;
+  }
+
+/* esta transformación para reflejar texto la saqué de 
+https://www.geeksforgeeks.org/flip-the-text-using-css/ */
+
+.GFG{                 
+    transform: scale(-1, 1);
+    color: #000080;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+
+h1 {
+    color: brown;
+}
+
+p {
+    color: blue;
+}
+
+.clase1 {
+    color: brown;
+    border-style: groove;
+}
+
+.clase2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.clase3 {
+    font-family:'Courier New', Courier, monospace;
+    font-size:large
+}
+
+.clase4 {
+    font-family: Arial, Helvetica, sans-serif;
+}

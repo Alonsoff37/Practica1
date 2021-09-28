@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>La otra pagina</title>
+<link rel="stylesheet" href=../css/estilo2.css>
+</head>
+<body>
+
+<h1>Escribe lo que quieras y observa como se ve el texto reflejado:</h1>
+<script>
+function disp() {
+    var a =document.getElementById("texto").value ;
+    document.getElementById("normal").innerHTML=a
+    document.getElementById("reflejo").innerHTML=a
+}
+</script>
+<form>
+        <input type="text" name="texto" id="texto">
+        <button type="button" onclick="disp()">Da click o enter</button>
+</form>
+
+<span id="normal"></span>
+<span class="GFG" id="reflejo"></span>
+<br>
+<p style="color:brown">Solo funcionará si das clic en el botón, 
+    no si das enter</p>
+
+</body>
+</html> 

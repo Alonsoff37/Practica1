@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Primera pagina</title>
+<link rel="stylesheet" href=css/estilo1.css>
+</head>
+<body>
+<script>
+function cere() {
+    document.getElementById("pq").style.display = "inline"; 
+    document.getElementById("preg").innerHTML = "¿Por qué?"; 
+}
+
+function leche() {
+    document.getElementById("pq").style.display = "none";
+    document.getElementById("preg").innerHTML = "Todos saben que el cereal va primero"; 
+}
+</script>
+<h1 class="clase2">Una etiqueta H1</h1>
+<p> Un video de Smash:</p>
+
+<video width="500" height="250" controls>
+    <source src=multimedia/Battle.mp4 type="video/mp4">  
+</video>
+<br>
+<br>
+<p class="clase3">De las tinieblas de la historia aparece el legendario esquilax:<br>
+    Un caballo con cabeza de conejo y cuerpo de conejo
+</p>
+<br>
+<img src="multimedia/esquilax.jpg" alt="Escher">
+<br>
+<p class="clase4"> En un plato de cereal va primero:</p>
+<form>
+    <input type="radio" id="cereal" name="Encuesta" onclick="cere()">
+    <label for="cereal" onclick="cere()">Cereal</label><br> 
+    <input type="radio" id="leche" name="Encuesta" onclick="leche()">
+    <label for="leche" onclick="leche()">Leche</label>
+</form><br>
+<h5 id="preg" class="clase1">¿Por qué?</h5>
+<form>
+    <input type="text" id="pq" name="pq" value="Porque sí" class="clase1">
+
+
+
+
+</body>
+</html> 

@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    color: royalblue;
+}
+
+p {
+    color: blue;
+}
+
+.clase1 {
+    color: brown;
+    border-style: groove;
+}
+
+.clase2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.clase3 {
+    font-family:'Courier New', Courier, monospace;
+    font-size:large
+}
+
+.clase4 {
+    font-family: Arial, Helvetica, sans-serif;
+}
