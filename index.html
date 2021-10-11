@@ -3,19 +3,11 @@
 <head>
 <title>Primera pagina</title>
 <link rel="stylesheet" href=css/estilo1.css>
-</head>
-<body>
-<script>
-function cere() {
-    document.getElementById("pq").style.display = "inline"; 
-    document.getElementById("preg").innerHTML = "¿Por qué?"; 
-}
-
-function leche() {
-    document.getElementById("pq").style.display = "none";
-    document.getElementById("preg").innerHTML = "Todos saben que el cereal va primero"; 
-}
+<script src="js/script1.js">
 </script>
+<script src="js/script2.js"></script>
+</head>
+<body onload="cic()">
 <h1 class="clase2">Una etiqueta H1</h1>
 <p> Un video de Smash:</p>
 
@@ -24,7 +16,7 @@ function leche() {
 </video>
 <br>
 <br>
-<p class="clase3">De las tinieblas de la historia aparece el legendario esquilax:<br>
+<p class="clase2">De las tinieblas de la historia aparece el legendario esquilax:<br>
     Un caballo con cabeza de conejo y cuerpo de conejo
 </p>
 <br>
@@ -38,8 +30,19 @@ function leche() {
     <label for="leche" onclick="leche()">Leche</label>
 </form><br>
 <h5 id="preg" class="clase1">¿Por qué?</h5>
-<form>
+<form action="#" onsubmit="validacion()">
     <input type="text" id="pq" name="pq" value="Porque sí" class="clase1">
+</form>
+<h1 class="clase3">El campo anterior tiene validación para strings vacías,
+    dicha validación hace uso de la condicional if. <br><br>
+    Para ver el uso de ciclos for, while, variables y arreglos:
+</h1>
+<h1 id="ciclo1">
+</h1>
+
+<form action="#" onsubmit="cic(1)">
+    <input type="text" id="cik" value="Escribe aquí lo que quieras">
+</form>
 
 
 

@@ -17,11 +17,12 @@ p {
 
 .clase2 {
     font-family: 'Courier New', Courier, monospace;
+    font-size: large;
 }
 
-.clase3 {
+h1.clase3 {
     font-family:'Courier New', Courier, monospace;
-    font-size:large
+    font-size:large;
 }
 
 .clase4 {
